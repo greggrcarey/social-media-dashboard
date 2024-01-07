@@ -31,30 +31,43 @@
 <body>
   <header class="header container">
     <div class="header__title">
-    <h1> Social Media Dashboard</h1>
-    <span class="header__subtitle">Followers: 23,004</span> 
-  </div>
+      <h1> Social Media Dashboard</h1>
+      <span class="header__subtitle">Followers: 23,004</span>
+    </div>
     <fieldset class="header__toggle toggle" aria-label="theme toggle" role="radiogroup">
       <div class="toggle__wrapper">
-        <input type="radio" name="theme" id="dark" >
-        <input type="radio" name="theme" id="system" >
-        <input type="radio" name="theme" id="light" >
+        <input type="radio" name="theme" id="dark">
+        <input type="radio" name="theme" id="system">
+        <input type="radio" name="theme" id="light">
         <span aria-hidden="true" class="toggle__background"></span>
         <span aria-hidden="true" class="toggle__button"></span>
       </div>
       <label for="dark">Dark</label>
       <label for="system">System</label>
       <label for="light">Light</label>
-      
+
     </fieldset>
-    
+
 
   </header>
-  <main><section></section>
-    @nathanf
-    1987
-    Followers
-    12 Today
+  <main>
+    <section class="container">
+      <div class="card">
+        <div class="card__platform">
+          <img class="card__icon" src="images/icon-facebook.svg" alt="Facebook">
+          <div class="card__username">@nathanf</div>
+        </div>
+        <div class="card__followers"><div class="card__count card__count--big">
+          1987
+        </div>
+          <div class="card__label">Followers</div></div>
+        
+        <div class="card__change">12 Today</div>
+      </div>
+    </section>
+
+
+
 
     @nathanf
     1044
