@@ -2,13 +2,18 @@
 
 .header {
     margin-top: rem(36);
+    display: flex;
+    flex-wrap: wrap;
     @include breakpoint(medium){
-        display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
     &__title{
+        width: 100%;
+        @include breakpoint(medium){
+            width: auto;
+        }
 
     }
 
@@ -17,8 +22,6 @@
         font-size: rem(14);
         color: var(--dark-text1);
     }
-    &__toggle{
-
-    }
+ 
     
 }
