@@ -93,5 +93,5 @@ This challenge is completely free. Please share it with anyone who will find it 
 **Have fun building!** 🚀
 
 
-timestamp 4:00
-https://www.youtube.com/watch?v=krfUjg0S2uI&t=11682s
+timestamp 4:18
+https://www.youtube.com/watch?v=krfUjg0S2uI&t=11686s

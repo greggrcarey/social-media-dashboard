@@ -6,8 +6,9 @@
     width: rem(255); //temp
     padding: rem(25);
     text-align: center;
+    border-radius: rem(5);
     &--facebook{
-
+        border-top: rem(5) solid var(--facebook);
     }
 
     &--twitter{ 
@@ -54,10 +55,10 @@
         font-weight: 700;
     }
     &__followers{
-
+        margin-bottom: rem(25);
     }
     &__count{
-        color: var(--light-bg);
+        color: var( --light-bg);
         font-weight: 700;
         letter-spacing: rem(-2);
         line-height: 1;
@@ -81,15 +82,28 @@
     }
 
     &__change{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: rem(12);
+        font-weight: 700;
         &--up{
-
+            color: var(--limegreen);
         }
 
         &--down{
+            color: var(--brightred);
+        }
 
+        img{
+            margin-right: rem(4);
         }
 
 
     }
+    &__number{
+    }
+
+    
 
 }
