@@ -23,6 +23,11 @@
     padding: rem(25);
     border-radius: rem(5);
     text-align: center;
+    transition: background 150ms ease-in-out;
+
+    &:hover {
+        background: var(--dark-card-hover);
+    }
 
     &--facebook {
         border-top: rem(5) solid var(--facebook);
@@ -39,15 +44,12 @@
             content: '';
             height: rem(5);
             width: 100%;
-            //background: var(--instagram-start);
             background: linear-gradient(225deg, var(--instagram-end) 0%, var(--instagram-middle) 50.91%, var(--instagram-start) 100%);
             position: absolute;
             display: block;
             left: 0;
             top: 0;
         }
-
-        //border-top: rem(5) solid var(--instagram);
     }
 
     &--youtube {
