@@ -28,7 +28,7 @@
     input[type="radio"] {
         opacity: 0;
         margin: 0 rem(-2) 0 rem(-2);
-        width: rem(20);
+        width: rem(24);
         height: rem(24);
 
         & :focus~.toggle__button {
@@ -42,7 +42,6 @@
         position: absolute;
         width: 100%;
         top: 0;
-        //background: linear-gradient(225deg, var(--toggle-bg-start) 0%, var(--toggle-bg-end) 98.02%);
         background: var(--toggle-bg);
         border-radius: rem(12);
         overflow: hidden;
